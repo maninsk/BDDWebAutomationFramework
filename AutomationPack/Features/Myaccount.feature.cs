@@ -112,7 +112,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 6
- testRunner.Given("the user logged in with valid <username> and <password>", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("the user successfully logged in with valid <username> and <password>", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 7
  testRunner.When(string.Format("the user update {0}", firstname), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");

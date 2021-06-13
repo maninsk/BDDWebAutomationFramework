@@ -30,7 +30,7 @@
             _pages.HomePage = new HomePage(_driverFacade);
         }
 
-        [Given(@"the user sucessfully logged in with valid (.*) and (.*)")]
+        [Given(@"the user successfully logged in with valid (.*) and (.*)")]
         public void GivenTheRegisteredUserWithValid(string username, string password)
         {
             _pages.LoginPage.GoToSite();

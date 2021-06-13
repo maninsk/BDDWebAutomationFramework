@@ -18,14 +18,14 @@ namespace Com.Test.Mani.StepDefinition
             _logger = new Logger();
         }
 
-        [When(@"the product (.*) order placed sucessfully")]
-        public void WhenTheProductT_ShirtOrderPlacedSucessfully(string item)
+        [When(@"the product (.*) order placed successfully")]
+        public void WhenTheProductT_ShirtOrderPlacedSuccessfully(string item)
         {
             _pages.HomePage.PlacesuccessfulOrder();
 
         }
         
-        [Then(@"the oder (.*) should be available in orderhistory and details")]
+        [Then(@"the order (.*) should be available in order history and details")]
         public void ThenTheOderT_ShirtShouldBeAvailableInOrderhistoryAndDetails(string item)
         {
             _pages.HomePage.VerifyTheSuccessfulOrder(item);
